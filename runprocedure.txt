@@ -1,0 +1,35 @@
+open the Project DynamicForm in NetBeans
+
+From the Connect menu, select Data Source...
+
+In the dialog that appears, click the New button to make the fields 
+editable. Then make the following entries:
+
+Display Name - This is any descriptive name that you choose for this 
+data source, for example, "Test Database".
+
+Driver Class - Select "com.mysql.jdbc.Driver" from the dropdown list 
+of available drivers.else type Driver path..
+
+Database URL - type in the following:
+
+   jdbc:mysql://127.0.0.1:3306/<DB-Name>
+   
+
+
+Requires Login - Check this box if a username/password combination must be 
+sent to the database when a connection is made.
+
+User Name - give as "root"
+
+Password - give as "password"
+
+Max Connections - use a larger number.
+
+Login Timeout - between 15 and 30 seconds.it works on the connectioin fails
+
+click the "Save" button. Then click "Connect" to connect to that data source
+
+same as u can add "N" number of DataBase
+
+then u can perform your Dynamic Query formation 
